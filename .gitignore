@@ -1,0 +1,9 @@
+#vscode files
+.vscode
+
+#gcc files
+*.out
+
+#test folder/files
+test.*
+TEST/
