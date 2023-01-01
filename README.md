@@ -26,6 +26,8 @@
 > |메모리 접근| Memory to Memory 연산 지원| load/store 명령어만 접근 가능|  
 > |컴파일된 프로그램 크기| Small | Large |  
 > |하드웨어 복잡도| High | Low |  
->
+
 > + ### 32-bit / 64-bit Architecture?
 >    컴퓨터가 한 번에 연산할 수 있는 데이터(register) 크기
+
+> + ### 
