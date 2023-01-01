@@ -18,16 +18,26 @@
 >     IP: Instruction Point (부팅시 사용할 명령어 address 저장소 in CISC)
  ## Chapter1.  
 > + ### RISC vs CISC 차이점
-> ||CISC|RISC|  
-> |:---:|:---:|:---:| 
-> |명령어| Simple to complex instructions| Simple instructions|  
-> |명령어 길이| Variable| Fixed |  
-> |명령어 개수| Many | Reduced|  
-> |메모리 접근| Memory to Memory 연산 지원| load/store 명령어만 접근 가능|  
-> |컴파일된 프로그램 크기| Small | Large |  
-> |하드웨어 복잡도| High | Low |  
-
+>   ||CISC|RISC|  
+>   |:---:|:---:|:---:| 
+>   |명령어| Simple to complex instructions| Simple instructions|  
+>   |명령어 길이| Variable| Fixed |  
+>   |명령어 개수| Many | Reduced|  
+>   |메모리 접근| Memory to Memory 연산 지원| load/store 명령어만 접근 가능|  
+>   |컴파일된 프로그램 크기| Small | Large |  
+>   |하드웨어 복잡도| High | Low |  
+>
 > + ### 32-bit / 64-bit Architecture?
 >    컴퓨터가 한 번에 연산할 수 있는 데이터(register) 크기
-
-> + ### 
+>
+> + ### CPU의 정수 대/소 비교
+>     비교대상의 자료형태를 Signed-Signed / Unsigned-Unsigned처럼 통일해야만 한다.  
+>     뺄셈을 이용해(A - B) 상태레지스터(Flag)를 설정하고, 대/소를 비교한다. 
+>  
+>   |Status|Flag (RISC-V)|Description|    
+>   |:---:|:---:|:---:|  
+>   |Zero| Z | A - B = 0 즉, A == B|  
+>   |Negative| N | A - B < 0 (Signed/Unsigned 무관) |  
+>   |Carry| C | 1: Unsigned Overflow<br> 0: Unsigned Underflow |  
+>   |Overflow| V | if V == 1: <br>Signed Overflow<br> or Signed Underflow |  
+> 
