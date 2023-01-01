@@ -9,14 +9,14 @@
 
 ## Summury
 
-> ## Terms  
+ ## Terms  
 >     ALU: Arithmetic Logical Unit  
 >     ISA: Instruction Set Architecture
 >     RISC: Reduced Instruction Set Computer
 >     CISC: Complex Instruction Set Computer
 >     PC: Program Count (부팅시 사용할 명령어 address 저장소 in RISC)
 >     IP: Instruction Point (부팅시 사용할 명령어 address 저장소 in CISC)
-> ## Chapter1.  
+ ## Chapter1.  
 > + ### RISC vs CISC 차이점
 > ||CISC|RISC|  
 > |:---:|:---:|:---:| 
