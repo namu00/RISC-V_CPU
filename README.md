@@ -32,7 +32,7 @@
 >
 > + ### CPU의 정수 대/소 비교
 >     비교대상의 자료형태를 Signed-Signed / Unsigned-Unsigned처럼 통일해야만 한다.  
->     뺄셈을 이용해(A - B) 상태레지스터(Flag)를 설정하고, 대/소를 비교한다. 
+>     뺄셈을 이용해(A - B, Calculated by ALU) 상태레지스터(Flag)를 설정하고, 대/소를 비교한다. 
 >  
 >   |Status|Flag (RISC-V)|Description|    
 >   |:---:|:---:|:---:|  
