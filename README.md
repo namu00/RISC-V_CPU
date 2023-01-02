@@ -17,7 +17,7 @@
 >     PC: Program Count (부팅시 사용할 명령어 address 저장소 in RISC)
 >     IP: Instruction Point (부팅시 사용할 명령어 address 저장소 in CISC)
  ## Chapter1.  
-> + ### RISC vs CISC 차이점
+> + ### RISC vs CISC  
 >   ||CISC|RISC|  
 >   |:---:|:---:|:---:| 
 >   |명령어| Simple to complex instructions| Simple instructions|  
