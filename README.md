@@ -17,7 +17,25 @@
 >     PC: Program Count (부팅시 사용할 명령어 address 저장소 in RISC)
 >     IP: Instruction Point (부팅시 사용할 명령어 address 저장소 in CISC)
  ## Chapter1.  
-> + ### RISC vs CISC 차이점
+
+> + ### 컴퓨터 구조
+>    Memory - CPU - Peripheral (I/O Device)  
+>    + CPU  
+>      CPU는 범용레지스터 (General Purpose Register),  
+>      PC (Program Counter, in RISC-V),  
+>      ALU (Arithmetic Logical Unit)  
+>      으로 구성되어있다.
+> 
+>    + Memory  
+>      CPU가 수행할 명령어들을 Load해놓고 대기하는 Table이다.  
+>      어셈블리 명령어들이 저장되어있다.  
+>      기본 주소 접근단위는 1byte이다.
+>
+>    + Peripheral (I/O Device)
+>      컴퓨터 주변장치들을 모두 Peripheral이라고 부른다.  
+>      GPU, USB, Monitor등등이 있다.  
+>          
+> + ### RISC vs CISC
 >   ||CISC|RISC|  
 >   |:---:|:---:|:---:| 
 >   |명령어| Simple to complex instructions| Simple instructions|  
