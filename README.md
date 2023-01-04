@@ -17,8 +17,6 @@
 >     PC: Program Count (부팅시 사용할 명령어 address 저장소 in RISC)
 >     IP: Instruction Point (부팅시 사용할 명령어 address 저장소 in CISC)
  ## Chapter1.  
-<<<<<<< HEAD
-
 > + ### 컴퓨터 구조
 >    Memory - CPU - Peripheral (I/O Device)  
 >    + CPU  
@@ -35,11 +33,8 @@
 >    + Peripheral (I/O Device)
 >      컴퓨터 주변장치들을 모두 Peripheral이라고 부른다.  
 >      GPU, USB, Monitor등등이 있다.  
->          
-> + ### RISC vs CISC
-=======
-> + ### RISC vs CISC  
->>>>>>> a63d8133f0577f35263572db52c28a2399c81c59
+>
+> + ### RISC vs CISC 
 >   ||CISC|RISC|  
 >   |:---:|:---:|:---:| 
 >   |명령어| Simple to complex instructions| Simple instructions|  
