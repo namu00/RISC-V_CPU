@@ -30,7 +30,7 @@
 >      어셈블리 명령어들이 저장되어있다.  
 >      기본 주소 접근단위는 1byte이다.
 >
->    + Peripheral (I/O Device)
+>    + Peripheral (I/O Device)  
 >      컴퓨터 주변장치들을 모두 Peripheral이라고 부른다.  
 >      GPU, USB, Monitor등등이 있다.  
 >
