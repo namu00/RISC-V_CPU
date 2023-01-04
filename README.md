@@ -20,7 +20,7 @@
 > + ### 컴퓨터 구조
 >    Memory - CPU - Peripheral (I/O Device)  
 >    + CPU  
->      CPU는 범용레지스터 (General Purpose Register),  
+>      범용레지스터 (General Purpose Register),  
 >      PC (Program Counter, in RISC-V),  
 >      ALU (Arithmetic Logical Unit)  
 >      으로 구성되어있다.
