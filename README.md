@@ -65,7 +65,7 @@
 >    ModelSim은 32비트 플랫폼이므로, 32비트 개발 플랫폼을 설치해야함.   
 >    (Redhet 계열은 dkpg --> rpm, apt-get --> yum으로 변경해서 실행)  
 > ```console
-> user@linux: $ vim install_32bit_lib.sh
+> user@linux:$ vim install_32bit_lib.sh
 > ```
 > ```bash
 > #install_32bit_lib.sh
@@ -89,6 +89,8 @@
 >  + Quartus 설치파일 다운로드(from Intel)  
 >  [Quartus Prime Lite for Linux Download Link](https://www.intel.com/content/www/us/en/software-kit/736571/intel-quartus-prime-lite-edition-design-software-version-21-1-1-for-linux.html)
 >
->  + tar 압축 해제
+>  + tar 압축 해제 & 설치파일 실행
 > ```console
 > user@linux:$ tar -xf Quartus-*
+> user@linux:$ ./setup.sh
+> ```
