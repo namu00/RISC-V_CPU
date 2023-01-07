@@ -60,14 +60,14 @@
 > 
 
 ## Chapter 2. 개발환경구축
-### Linux에 ModelSim 설치
+### ModelSim 설치 in Linux
 >  + 32-bit 개발 플랫폼 설치  
 >    ModelSim은 32비트 플랫폼이므로, 32비트 개발 플랫폼을 설치해야함.   
 >    (Redhet 계열은 dkpg --> rpm, apt-get --> yum으로 변경해서 실행)  
+> ```console
+> user@linux: % vim install_32bit_lib.sh
 > ```
-> % $ #> vim install_32bit_lib.sh
-> ```
-> ```sh
+> ```shell
 > #install_32bit_lib.sh
 > sudo dpkg --add-architecture i386
 > sudo apt-get update
@@ -85,3 +85,10 @@
 > % $ #> chmod 777 ModelSimSetup-*.run
 > % $ #> ./ModelSimSetup-*
 > ```
+### Quartus 설치 in Linux
+>  + Quartus 설치파일 다운로드(from Intel)  
+>  [Quartus Prime Lite for Linux Download Link](https://www.intel.com/content/www/us/en/software-kit/736571/intel-quartus-prime-lite-edition-design-software-version-21-1-1-for-linux.html)
+>
+>  + tar 압축 해제
+> ```
+> % $ #> tar -xf 
