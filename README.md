@@ -67,15 +67,15 @@
 > ```console
 > user@linux: % vim install_32bit_lib.sh
 > ```
-> ```shell
+> ```sh
 > #install_32bit_lib.sh
 > sudo dpkg --add-architecture i386
 > sudo apt-get update
 > sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32ncurses6 libxft2 libxft2:i386 libxext6 libxext6:i386 
 > ```
-> ```
-> % $ #> chmod 770 install_32bit_lib.sh
-> % $ #> ./install_32bit_lib.sh
+> ```console
+> user@linux: % chmod 770 install_32bit_lib.sh
+> user@linux: % ./install_32bit_lib.sh
 > ```
 >   + ModelSim 설치파일 다운로드 (from Intel)  
 >   [ModelSim for Linux Download Link](https://www.intel.com/content/www/us/en/software-kit/750637/modelsim-intel-fpgas-standard-edition-software-version-20-1.html)
@@ -90,5 +90,5 @@
 >  [Quartus Prime Lite for Linux Download Link](https://www.intel.com/content/www/us/en/software-kit/736571/intel-quartus-prime-lite-edition-design-software-version-21-1-1-for-linux.html)
 >
 >  + tar 압축 해제
-> ```
-> % $ #> tar -xf 
+> ```console
+> user@linux: % tar -xf 
