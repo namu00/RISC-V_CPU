@@ -65,7 +65,7 @@
 >    ModelSim은 32비트 플랫폼이므로, 32비트 개발 플랫폼을 설치해야함.   
 >    (Redhet 계열은 dkpg --> rpm, apt-get --> yum으로 변경해서 실행)  
 > ```console
-> user@linux: % vim install_32bit_lib.sh
+> user@linux: $ vim install_32bit_lib.sh
 > ```
 > ```sh
 > #install_32bit_lib.sh
@@ -74,16 +74,16 @@
 > sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32ncurses6 libxft2 libxft2:i386 libxext6 libxext6:i386 
 > ```
 > ```console
-> user@linux: % chmod 770 install_32bit_lib.sh
-> user@linux: % ./install_32bit_lib.sh
+> user@linux: $ chmod 770 install_32bit_lib.sh
+> user@linux: $ ./install_32bit_lib.sh
 > ```
 >   + ModelSim 설치파일 다운로드 (from Intel)  
 >   [ModelSim for Linux Download Link](https://www.intel.com/content/www/us/en/software-kit/750637/modelsim-intel-fpgas-standard-edition-software-version-20-1.html)
 >   
 >   + .run파일 실행
-> ```
-> % $ #> chmod 777 ModelSimSetup-*.run
-> % $ #> ./ModelSimSetup-*
+> ```console
+> user@linux: $ chmod 777 ModelSimSetup-*.run
+> user@linux: $ ./ModelSimSetup-*
 > ```
 ### Quartus 설치 in Linux
 >  + Quartus 설치파일 다운로드(from Intel)  
@@ -91,4 +91,4 @@
 >
 >  + tar 압축 해제
 > ```console
-> user@linux: % tar -xf 
+> user@linux: $ tar -xf 
