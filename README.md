@@ -60,7 +60,7 @@
 > 
 
 ## Chapter 2. 개발환경구축
-## Linux에 ModelSim 설치
+### Linux에 ModelSim 설치
 >  + 32-bit 개발 플랫폼 설치  
 >    ModelSim은 32비트 플랫폼이므로, 32비트 개발 플랫폼을 설치해야함.   
 >    (Redhet 계열은 dkpg --> rpm, apt-get --> yum으로 변경해서 실행)  
