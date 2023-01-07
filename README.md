@@ -63,7 +63,7 @@
 ### ModelSim 설치 in Linux
 >  + 32-bit 개발 플랫폼 설치  
 >    ModelSim은 32비트 플랫폼이므로, 32비트 개발 플랫폼을 설치해야함.   
->    (Redhet 계열은 dkpg --> rpm, apt-get --> yum으로 변경해서 실행)  
+>    (Redhet 계열은 dpkg --> rpm, apt-get --> yum으로 변경해서 실행)  
 > ```console
 > user@linux:$ vim install_32bit_lib.sh
 > ```
