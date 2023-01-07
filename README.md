@@ -64,8 +64,6 @@
 >  + 32-bit 개발 플랫폼 설치  
 >    ModelSim은 32비트 플랫폼이므로, 32비트 개발 플랫폼을 설치해야함.   
 >    (Redhet 계열은 dkpg --> rpm, apt-get --> yum으로 변경해서 실행)  
->  
-> vim 편집기를 이용해 .sh 파일 생성
 > ```console
 > user@linux:$ vim install_32bit_lib.sh
 > ```
@@ -75,7 +73,6 @@
 > sudo apt-get update
 > sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32ncurses6 libxft2 libxft2:i386 libxext6 libxext6:i386 
 > ```
->    권한 부여 후 run파일 실행
 > ```console
 > user@linux:$ chmod 770 install_32bit_lib.sh
 > user@linux:$ ./install_32bit_lib.sh
