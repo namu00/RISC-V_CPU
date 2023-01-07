@@ -16,7 +16,7 @@
 >     CISC: Complex Instruction Set Computer
 >     PC: Program Count (부팅시 사용할 명령어 address 저장소 in RISC)
 >     IP: Instruction Point (부팅시 사용할 명령어 address 저장소 in CISC)
- ## Chapter1.  
+ ## Chapter1. 컴퓨터 구조의 이해
 > + ### 컴퓨터 구조
 >    Memory - CPU - Peripheral (I/O Device)  
 >    + CPU  
@@ -58,3 +58,30 @@
 >   |Carry| C | 1: Unsigned Overflow<br> 0: Unsigned Underflow |  
 >   |Overflow| V | if V == 1: <br>Signed Overflow<br> or Signed Underflow |  
 > 
+
+## Chapter 2. 개발환경구축
+## Linux에 ModelSim 설치
+>  + 32-bit 개발 플랫폼 설치  
+>    ModelSim은 32비트 플랫폼이므로, 32비트 개발 플랫폼을 설치해야함.   
+>    (Redhet 계열은 dkpg --> rpm, apt-get --> yum으로 변경해서 실행)  
+> ```
+> % $ #> vim install_32bit_lib.sh
+> ```
+> ```sh
+> #install_32bit_lib.sh
+> sudo dpkg --add-architecture i386
+> sudo apt-get update
+> sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32ncurses6 libxft2 libxft2:i386 libxext6 libxext6:i386 
+> ```
+> ```
+> % $ #> chmod 770 install_32bit_lib.sh
+> % $ #> ./install_32bit_lib.sh
+> ```
+>   + ModelSim 설치파일 다운로드 (from Intel)  
+>   [ModelSim for Linux Download Link](https://www.intel.com/content/www/us/en/software-kit/750637/modelsim-intel-fpgas-standard-edition-software-version-20-1.html)
+>   
+>   + .run파일 실행
+> ```
+> % $ #> chmod 777 ModelSimSetup-*.run
+> % $ #> ./ModelSimSetup-*
+> ```
