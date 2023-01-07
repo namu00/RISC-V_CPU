@@ -67,7 +67,7 @@
 > ```console
 > user@linux: $ vim install_32bit_lib.sh
 > ```
-> ```sh
+> ```bash
 > #install_32bit_lib.sh
 > sudo dpkg --add-architecture i386
 > sudo apt-get update
