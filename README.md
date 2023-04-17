@@ -14,8 +14,8 @@
 >     ISA: Instruction Set Architecture
 >     RISC: Reduced Instruction Set Computer
 >     CISC: Complex Instruction Set Computer
->     PC: Program Count (부팅시 사용할 명령어 address 저장소 in RISC)
->     IP: Instruction Point (부팅시 사용할 명령어 address 저장소 in CISC)
+>     PC: Program Count (프로세서가 사용할 명령어 address 위치 포인터 register in RISC)
+>     IP: Instruction Point (프로세서가 사용할 명령어 address 위치 포인터 register in CISC)
  ## Chapter1. 컴퓨터 구조의 이해
 > + ### 컴퓨터 구조
 >    Memory - CPU - Peripheral (I/O Device)  
