@@ -33,7 +33,12 @@
 >    + Peripheral (I/O Device)  
 >      컴퓨터 주변장치들을 모두 Peripheral이라고 부른다.  
 >      GPU, USB, Monitor등등이 있다.  
->
+> + ### 컴퓨터 구성 요소 5가지  
+>   1. Input  
+>   2. Output  
+>   3. Memory  
+>   4. Data path (Part of Processor)  
+>   5. Control unit (Part of Processor)  
 > + ### RISC vs CISC 
 >   ||CISC|RISC|  
 >   |:---:|:---:|:---:| 
