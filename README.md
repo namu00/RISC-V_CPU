@@ -17,6 +17,12 @@
 >     PC: Program Count (프로세서가 사용할 명령어 address 위치 포인터 register in RISC)
 >     IP: Instruction Point (프로세서가 사용할 명령어 address 위치 포인터 register in CISC)
  ## Chapter1. 컴퓨터 구조의 이해
+> + ### 컴퓨터 구성 요소 5가지  
+>   1. Input  
+>   2. Output  
+>   3. Memory  
+>   4. Data path (Part of Processor)  
+>   5. Control unit (Part of Processor)  
 > + ### 컴퓨터 구조
 >    Memory - CPU - Peripheral (I/O Device)  
 >    + CPU  
@@ -33,12 +39,6 @@
 >    + Peripheral (I/O Device)  
 >      컴퓨터 주변장치들을 모두 Peripheral이라고 부른다.  
 >      GPU, USB, Monitor등등이 있다.  
-> + ### 컴퓨터 구성 요소 5가지  
->   1. Input  
->   2. Output  
->   3. Memory  
->   4. Data path (Part of Processor)  
->   5. Control unit (Part of Processor)  
 > + ### RISC vs CISC 
 >   ||CISC|RISC|  
 >   |:---:|:---:|:---:| 
