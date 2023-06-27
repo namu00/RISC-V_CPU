@@ -1,5 +1,5 @@
 # RISC-V_computer_architecture
-> Studyroom for Computer Architecture with RISC-V
+> Studyroom for RISC-V Computer Architecture 
 
 ## Textbook     
 |Title|Writer|Publisher|Translate|Development Arch|  
