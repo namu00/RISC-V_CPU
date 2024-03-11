@@ -1,0 +1,1 @@
+Verdi -f run.f -ssf test.fsdb&
