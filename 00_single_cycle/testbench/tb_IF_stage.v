@@ -6,15 +6,19 @@ module tb_IF_stage;
     localparam CLK_FREQ       = 50_000_000;
     localparam CLK_PERIOD     = 1_000_000_000 / CLK_FREQ;
 
+    //Global Signal
     reg clk;
     reg n_rst;
 
+    //From Control Unit
     reg [1:0] PC_src;
     
+    //PC mux input
     reg [31:0] next_pc;
     reg [31:0] jump_pc;
     reg [31:0] branch_pc;
 
+    //Current PC & PC + 4 out
     wire [31:0] curr_pc;
     wire [31:0] pc_plus_4;
 
