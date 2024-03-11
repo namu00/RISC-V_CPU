@@ -7,3 +7,9 @@
 #test folder/files
 test.*
 TEST/
+
+#modelsim files
+work/
+modelsim.ini
+vlog.opt
+*.wlf
